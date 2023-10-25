@@ -1,5 +1,5 @@
 document.getElementById("btn-log-out").addEventListener("click", () => {
   auth.signOut().then(() => {
-    window.location.replace("/santan/login");
+    window.location.replace("/login");
   });
 });
